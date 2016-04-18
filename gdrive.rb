@@ -2,10 +2,10 @@ require "language/go"
 
 class Gdrive < Formula
   desc "Google Drive CLI Client"
-  homepage "https://github.com/paulz/gdrive"
+  homepage "https://github.com/prasmussen/gdrive"
   url "https://github.com/prasmussen/gdrive/archive/2.0.1.tar.gz"
   sha256 "e3cbd0d28669753c914af7c4832319d32586f6257bbd5f10d950bc4ed8322429"
-  head "https://github.com/paulz/gdrive.git"
+  head "https://github.com/prasmussen/gdrive.git"
 
   bottle do
     cellar :any_skip_relocation
@@ -46,8 +46,8 @@ class Gdrive < Formula
 
   def install
     ENV["GOPATH"] = buildpath
-    mkdir_p buildpath/"src/github.com/paulz/"
-    ln_sf buildpath, buildpath/"src/github.com/paulz/gdrive"
+    mkdir_p buildpath/"src/github.com/prasmussen/"
+    ln_sf buildpath, buildpath/"src/github.com/prasmussen/gdrive"
     Language::Go.stage_deps resources, buildpath/"src"
     system "godep", "go", "build", "-o", "gdrive", "."
     bin.install "gdrive"
