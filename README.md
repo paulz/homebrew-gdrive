@@ -15,6 +15,8 @@ brew install --HEAD gdrive
 
 Install `brew go-resources` from [https://github.com/Homebrew/homebrew-dev-tools/blob/master/cmd/brew-go-resources.rb](https://github.com/Homebrew/homebrew-dev-tools/blob/master/cmd/brew-go-resources.rb)
 
+Check Go installation: [https://gist.github.com/vsouza/77e6b20520d07652ed7d#file-bashrc](https://gist.github.com/vsouza/77e6b20520d07652ed7d#file-bashrc)
+
 Run `brew go-resources` on updated clone:
 ```
 git clone https://github.com/prasmussen/gdrive.git
