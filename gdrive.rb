@@ -14,11 +14,6 @@ class Gdrive < Formula
   depends_on "go" => :build
   depends_on "godep" => :build
 
-  go_resource "github.com/prasmussen/gdrive" do
-    url "https://github.com/prasmussen/gdrive.git",
-      :revision => "8de8e05c483c6b5f23b14742315f1860211dcef7"
-  end
-
   go_resource "github.com/sabhiram/go-git-ignore" do
     url "https://github.com/sabhiram/go-git-ignore.git",
       :revision => "228fcfa2a06e870a3ef238d54c45ea847f492a37"
