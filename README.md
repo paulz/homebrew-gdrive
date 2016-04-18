@@ -13,6 +13,9 @@ brew install --HEAD gdrive
 
 ### Updating go resources
 
+Install `brew go-resources` from [https://github.com/Homebrew/homebrew-dev-tools/blob/master/cmd/brew-go-resources.rb](https://github.com/Homebrew/homebrew-dev-tools/blob/master/cmd/brew-go-resources.rb)
+
+Run `brew go-resources` on updated clone:
 ```
 git clone https://github.com/prasmussen/gdrive.git
 cd gdrive
