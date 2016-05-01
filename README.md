@@ -54,8 +54,8 @@ will output go resources in brew formula format:
 Copy paste go resources into formula to update
 
 ### TODO
- 1. [X] wait for the next release of gdrive to update formula in order to use source tar archive instead of HEAD revision
- 2. [ ] pull request to submit formula to [https://github.com/Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core)
-   * [ ] pull request to remove old formular from boneyard [https://github.com/Homebrew/homebrew-boneyard/blob/master/gdrive.rb](https://github.com/Homebrew/homebrew-boneyard/blob/master/gdrive.rb)
-   * [ ] pull request to remove tap migration to boneyard [https://github.com/Homebrew/homebrew-core/blob/master/tap_migrations.json#L76](https://github.com/Homebrew/homebrew-core/blob/master/tap_migrations.json#L76)
+ 1. [X] wait for the next release of gdrive to update formula in order to use source tar archive instead of HEAD revision. Using 2.1.0 release: https://github.com/prasmussen/gdrive/releases/tag/2.1.0
+ 2. [X] [pull request to submit formula](https://github.com/Homebrew/homebrew-core/pull/754) to  [https://github.com/Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core)
+   * [X] [pull request to remove old formular from boneyard](https://github.com/Homebrew/homebrew-boneyard/pull/111) [https://github.com/Homebrew/homebrew-boneyard/blob/master/gdrive.rb](https://github.com/Homebrew/homebrew-boneyard/blob/master/gdrive.rb)
+   * [X] [pull request to remove tap migration](https://github.com/Homebrew/homebrew-core/pull/754/commits/1d4931819f4d0cddad1d5875cfdecd0dd3f73763) to boneyard [https://github.com/Homebrew/homebrew-core/blob/master/tap_migrations.json#L76](https://github.com/Homebrew/homebrew-core/blob/master/tap_migrations.json#L76)
  3. [ ] pull request to original repo to add homebrew instructions
