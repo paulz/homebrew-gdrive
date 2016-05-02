@@ -25,8 +25,6 @@ brew install gdrive
  2. [x] Test installation without tap: `brew install gdrive`
  2. [x] Update readme
  3. [x] Remove taps
-
-### WAITING for Pull Requests:
  3. [x] [Update read me](https://github.com/prasmussen/gdrive/pull/148) to add homebrew instructions
 
 ### TODO
