@@ -16,3 +16,10 @@ brew install gdrive
  2. [X] [Submit formula](https://github.com/Homebrew/homebrew-core/pull/754) to  [https://github.com/Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core)
  2. [X] [Remove old formular from boneyard](https://github.com/Homebrew/homebrew-boneyard/pull/111) [https://github.com/Homebrew/homebrew-boneyard/blob/master/gdrive.rb](https://github.com/Homebrew/homebrew-boneyard/blob/master/gdrive.rb)
  3. [X] [Update read me](https://github.com/prasmussen/gdrive/pull/148) to add homebrew instructions
+
+### TODO
+ 1. [ ] Once https://github.com/Homebrew/homebrew-core/pull/754 is merged
+ 2. [ ] Test installation without tap: `brew install gdrive`
+ 2. [ ] Update readme
+ 3. [ ] Remove taps
+
