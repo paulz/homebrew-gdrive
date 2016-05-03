@@ -19,7 +19,7 @@ class Gdrive < Formula
   test do
     assert_match version.to_s, shell_output("#{bin}/gdrive version")
     assert_match "gdrive usage:", shell_output("#{bin}/gdrive help")
-    assert_match "oauth2: cannot fetch token: 400 Bad Request", shell_output("#{bin}/gdrive about --refresh-token 0")
-    assert_match "googleapi: Error 401: Invalid Credentials, authError", shell_output("#{bin}/gdrive about --access-token 0")
+    assert_match "oauth2: cannot fetch token: 400 Bad Request", shell_output("#{bin}/gdrive about --refresh-token 0", 1)
+    assert_match "googleapi: Error 401: Invalid Credentials, authError", shell_output("#{bin}/gdrive about --access-token 0", 1)
   end
 end
